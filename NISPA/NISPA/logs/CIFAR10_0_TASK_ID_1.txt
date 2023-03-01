@@ -1,0 +1,4 @@
+Namespace(batch_size=128, class_per_task=2, dataset='cifar10', experiment_name='CIFAR10_0', experiment_note='', grow=1, grow_init='normal', learning_rate=0.002, mask_outputs=1, model='conv', multihead=1, optimizer='adam', p_step_size='cosine', perm_perc=[0, 10, 100], phase_epochs=5, prune_perc=90.0, recovery_perc=0.75, reinit=1, rewire_algo='full_random', seed=0, step_size_param=30.0)
+Top 1 Test Accuracy (Current Task After FineTuning: [0, 1]): 95.7
+ #Units: [64, 64, 128, 128, 1024, 10]
+ #Stable Units[61, 57, 107, 107, 617, 2]

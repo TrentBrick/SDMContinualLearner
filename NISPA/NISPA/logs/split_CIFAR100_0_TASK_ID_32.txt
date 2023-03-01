@@ -1,0 +1,36 @@
+Namespace(batch_size=512, class_per_task=2, dataset='split_cifar100', experiment_name='split_CIFAR100_0', experiment_note='', grow=1, grow_init='normal', learning_rate=0.01, mask_outputs=0, model='mlp', multihead=0, optimizer='adam', p_step_size='cosine', perm_perc=[0, 10, 100], phase_epochs=100, prune_perc=80.0, recovery_perc=0.75, reinit=1, rewire_algo='full_random', seed=0, step_size_param=30.0)
+Top 1 Test Accuracy (Cumulative: ): 2.828125
+Top 1 Test Accuracy (Current Task After FineTuning: [62, 63]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 1: [0 1]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 2: [2 3]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 3: [4 5]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 4: [6 7]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 5: [8 9]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 6: [10 11]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 7: [12 13]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 8: [14 15]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 9: [16 17]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 10: [18 19]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 11: [20 21]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 12: [22 23]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 13: [24 25]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 14: [26 27]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 15: [28 29]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 16: [30 31]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 17: [32 33]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 18: [34 35]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 19: [36 37]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 20: [38 39]): 17.5
+TASK ID 31  Top 1 Test Accuracy (Backward Task 21: [40 41]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 22: [42 43]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 23: [44 45]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 24: [46 47]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 25: [48 49]): 73.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 26: [50 51]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 27: [52 53]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 28: [54 55]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 29: [56 57]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 30: [58 59]): 0.0
+TASK ID 31  Top 1 Test Accuracy (Backward Task 31: [60 61]): 0.0
+ #Units: [400, 400, 400, 100]
+ #Stable Units[364, 366, 393, 64]

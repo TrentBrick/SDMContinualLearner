@@ -1,0 +1,23 @@
+Namespace(batch_size=512, class_per_task=2, dataset='split_cifar100', experiment_name='split_CIFAR100_0', experiment_note='', grow=1, grow_init='normal', learning_rate=0.01, mask_outputs=0, model='mlp', multihead=0, optimizer='adam', p_step_size='cosine', perm_perc=[0, 10, 100], phase_epochs=100, prune_perc=80.0, recovery_perc=0.75, reinit=1, rewire_algo='full_random', seed=0, step_size_param=30.0)
+Top 1 Test Accuracy (Cumulative: ): 4.5
+Top 1 Test Accuracy (Current Task After FineTuning: [36, 37]): 3.5
+TASK ID 18  Top 1 Test Accuracy (Backward Task 1: [0 1]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 2: [2 3]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 3: [4 5]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 4: [6 7]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 5: [8 9]): 2.5
+TASK ID 18  Top 1 Test Accuracy (Backward Task 6: [10 11]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 7: [12 13]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 8: [14 15]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 9: [16 17]): 71.5
+TASK ID 18  Top 1 Test Accuracy (Backward Task 10: [18 19]): 3.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 11: [20 21]): 0.5
+TASK ID 18  Top 1 Test Accuracy (Backward Task 12: [22 23]): 3.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 13: [24 25]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 14: [26 27]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 15: [28 29]): 1.5
+TASK ID 18  Top 1 Test Accuracy (Backward Task 16: [30 31]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 17: [32 33]): 0.0
+TASK ID 18  Top 1 Test Accuracy (Backward Task 18: [34 35]): 0.0
+ #Units: [400, 400, 400, 100]
+ #Stable Units[360, 355, 390, 38]

@@ -1,0 +1,6 @@
+Namespace(batch_size=512, class_per_task=5, dataset='emnist_fmnist', experiment_name='EFMNIST_0', experiment_note='', grow=1, grow_init='normal', learning_rate=0.01, mask_outputs=1, model='mlp', multihead=1, optimizer='adam', p_step_size='cosine', perm_perc=[0, 10, 100], phase_epochs=5, prune_perc=80.0, recovery_perc=0.75, reinit=1, rewire_algo='full_random', seed=0, step_size_param=30.0)
+Top 1 Test Accuracy (Cumulative: ): 94.49134615384615
+Top 1 Test Accuracy (Current Task After FineTuning: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]): 91.5576923076923
+TASK ID 1  Top 1 Test Accuracy (Backward Task 1: [0 1 2 3 4 5 6 7 8 9]): 97.425
+ #Units: [400, 400, 400, 57]
+ #Stable Units[204, 275, 196, 23]

@@ -1,0 +1,5 @@
+__pycache__/
+data/
+wandb_Logger/*
+.DS_Store
+notebooks/.ipynb_checkpoints/%

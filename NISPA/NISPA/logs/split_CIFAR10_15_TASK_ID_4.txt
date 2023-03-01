@@ -1,0 +1,8 @@
+Namespace(batch_size=128, class_per_task=2, dataset='split_cifar10', experiment_name='split_CIFAR10_15', experiment_note='', grow=1, grow_init='normal', learning_rate=0.0003, mask_outputs=0, model='mlp', multihead=0, optimizer='adam', p_step_size='cosine', perm_perc=[0, 10, 100], phase_epochs=10, prune_perc=80.0, recovery_perc=0.75, reinit=1, rewire_algo='full_random', seed=15, step_size_param=30.0)
+Top 1 Test Accuracy (Cumulative: ): 24.675
+Top 1 Test Accuracy (Current Task After FineTuning: [6, 7]): 98.7
+TASK ID 3  Top 1 Test Accuracy (Backward Task 1: [0 1]): 0.0
+TASK ID 3  Top 1 Test Accuracy (Backward Task 2: [2 3]): 0.0
+TASK ID 3  Top 1 Test Accuracy (Backward Task 3: [4 5]): 0.0
+ #Units: [400, 400, 400, 10]
+ #Stable Units[380, 311, 241, 8]
